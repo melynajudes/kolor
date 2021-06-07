@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gen1.1!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="me" href="../"/>
+<style>
+
+    body {
+        height: 96vh;
+        background: url('https://www.youtube.com/') no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+
+    .container {
+        margin-top: 4%;
+    }
+    
+    .footer {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .footer img {
+        width: 20px;
+        margin: 0px 3px;
+    }
+    </style>
+</head>
+
+<body>
+<textarea name="url1" cols="20" rows="15" id="url1" style="display:none;">
+pretty-horny.link/imo?xx16
+pretty-horny.link/imo?xx17
+pretty-horny.link/imo?xx18
+pretty-horny.link/imo?xx19
+pretty-horny.link/imo?xx20</textarea>
+
+<textarea name="url2" cols="20" rows="15" id="url2" style="display:none;">
+pretty-horny.link/polos?xx11
+pretty-horny.link/polos?xx12
+pretty-horny.link/polos?xx13
+pretty-horny.link/polos?xx14
+pretty-horny.link/polos?xx15</textarea>
+
+    <div class="container text-center">
+        <div class="row">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+			<a href="../1.1" style="color: White"> <strong>GenURL!</strong> </a>
+            </div>    <!-- awal-1 -->
+            <div class="panel-body">
+                <div class="GENERAT-URL">
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm" id="genme" placeholder="Generat URL"
+                                value="">
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-default btn-sm"
+                                    onclick="gass(url1.value);return false;">
+                                    <strong>Generate URL imonet</strong>
+                                </button>
+                                <button type="button" data-copytarget="#genme" class="btn btn-default btn-sm">
+                                    <i class="far fa-copy" data-copytarget="#genme"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div><!-- /.panel-footer -->
+            </div>     <!-- awal-2 -->
+           <div class="panel-body">
+                <div class="GENERAT-URL2">
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm" id="genme2" placeholder="Generat URL"
+                                value="">
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-default btn-sm"
+                                    onclick="gass2(url2.value);return false;">
+                                    <strong>Generate URL lPolos</strong>
+                                </button>
+                                <button type="button" data-copytarget="#genme2" class="btn btn-default btn-sm">
+                                    <i class="far fa-copy" data-copytarget="#genme2"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div><!-- /.panel-footer -->
+                </div><!-- /.GENERAT-URL -->
+                <div class="footer text-center">
+                    <img src="favicon.ico"
+                        alt="">
+                    <span>&copy; 2097 &#183;</span>
+            </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+    </div>
+    </div><!-- /.container-->
+
+    <script id="GENERAT-URL">    <!--script randomURL
+        function gass(a) {
+            var url1Array = a.split('\n');
+            for (var i = 0; i < url1Array.length; i++) {
+                var domain = Math.floor(Math.random() * url1Array.length);
+                document.getElementById("genme").value = "http://" + url1Array[domain] + "/?KOLOR=" + awur();
+            }
+        }
+        function awur() {
+            var text = "";
+            var possible = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            for (var i = 0; i < 10; i++)text += possible.charAt(Math.floor(Math.random() * possible.length));
+            return text
+        }
+    </script>
+	
+    <script id="GENERAT-URL2">    <!--script randomURL2
+        function gass2(a) {
+            var url1Array = a.split('\n');
+            for (var i = 0; i < url1Array.length; i++) {
+                var domain = Math.floor(Math.random() * url1Array.length);
+                document.getElementById("genme2").value = "http://" + url1Array[domain] + "/?KOLOR=" + awur();
+            }
+        }
+        function awur() {
+            var text = "";
+            var possible = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            for (var i = 0; i < 10; i++)text += possible.charAt(Math.floor(Math.random() * possible.length));
+            return text
+        }
+    </script>
+
+    <script type="text/javascript">    <!--script copy
+        (function () {
+            'use strict';
+            document.body.addEventListener('click', copy, true);
+            function copy(e) {
+                var t = e.target,
+                    c = t.dataset.copytarget,
+                    inp = (c ? document.querySelector(c) : null);
+                if (inp && inp.select) {
+                    inp.select();
+                    try {
+                        document.execCommand('copy');
+                        inp.blur();
+                        inp.focus();
+                        t.classList.add('copied');
+                        setTimeout(function () {
+                            t.classList.remove('copied');
+                        }, 1500);
+                    } catch (err) {
+                        swal.fire('please press Ctrl/Cmd+C to copy');
+                    }
+                }
+            }
+        })();
+    </script>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+        
+</body>
+</html>
